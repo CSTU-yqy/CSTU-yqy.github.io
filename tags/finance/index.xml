@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Finance on Qianyu Yang</title>
+    <link>https://CSTU-yqy.github.io/tags/finance/</link>
+    <description>Recent content in Finance on Qianyu Yang</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://CSTU-yqy.github.io/tags/finance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Qianyu Yang</title>
+      <link>https://CSTU-yqy.github.io/posts/</link>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://CSTU-yqy.github.io/posts/</guid>
+      <description>First-year PhD Student in Cambridge</description>
+    </item>
+  </channel>
+</rss>

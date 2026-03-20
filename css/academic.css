@@ -1,0 +1,341 @@
+/* ===== RESET & BASE ===== */
+body, body.avenir {
+  font-family: 'Source Sans 3', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  background-color: #ffffff !important;
+  color: #333333;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+
+/* Override Ananke defaults */
+.pb7 { padding-bottom: 0 !important; }
+.pb3-m { padding-bottom: 0 !important; }
+.pb6-l { padding-bottom: 0 !important; }
+.bg-black { background-color: #fff !important; }
+.bg-near-white { background-color: #fff !important; }
+header .pv3 { display: none !important; }
+header .tc-l { display: none !important; }
+
+/* ===== NAVIGATION ===== */
+.academic-nav {
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  z-index: 100;
+  padding: 0.8rem 0;
+}
+
+.nav-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-name {
+  font-family: 'Crimson Text', Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.nav-name:hover {
+  color: #0055a4;
+}
+
+.nav-links a {
+  color: #555;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-left: 1.5rem;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #0055a4;
+}
+
+/* ===== BIO SECTION ===== */
+.bio-section {
+  padding: 3rem 0 2rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.bio-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+}
+
+.bio-photo {
+  flex-shrink: 0;
+  width: 220px;
+  height: 280px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.bio-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 60% 15%;
+}
+
+.bio-text h1 {
+  font-family: 'Crimson Text', Georgia, serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 0.3rem;
+  color: #1a1a1a;
+}
+
+.bio-title {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 0 0 0.1rem;
+}
+
+.bio-affiliation {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 0 0 0.8rem;
+}
+
+.bio-contact {
+  font-size: 0.9rem;
+  margin: 0 0 1rem;
+}
+
+.bio-contact a {
+  color: #0055a4;
+  text-decoration: none;
+}
+
+.bio-contact a:hover {
+  text-decoration: underline;
+}
+
+.bio-description {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #333;
+  margin: 0 0 0.8rem;
+}
+
+.bio-description a {
+  color: #0055a4;
+  text-decoration: none;
+}
+
+.bio-description a:hover {
+  text-decoration: underline;
+}
+
+/* ===== CONTENT SECTIONS ===== */
+.content-section {
+  padding: 2rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.content-section:last-of-type {
+  border-bottom: none;
+}
+
+.section-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section-container h2 {
+  font-family: 'Crimson Text', Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  border-bottom: 2px solid #1a1a1a;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-container h3 {
+  font-family: 'Crimson Text', Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+/* ===== PAPERS ===== */
+.paper {
+  margin-bottom: 1.8rem;
+}
+
+.paper-title {
+  margin: 0 0 0.2rem;
+}
+
+.paper-title a {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #0055a4;
+  text-decoration: none;
+}
+
+.paper-title a:hover {
+  text-decoration: underline;
+}
+
+.paper-title-nolink {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0 0 0.2rem;
+}
+
+.paper-authors {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0 0 0.3rem;
+}
+
+.paper-award {
+  font-size: 0.9rem;
+  color: #8b0000;
+  font-style: italic;
+  margin: 0 0 0.3rem;
+}
+
+.paper-abstract {
+  margin-top: 0.4rem;
+}
+
+.paper-abstract summary {
+  font-size: 0.9rem;
+  color: #0055a4;
+  cursor: pointer;
+  font-weight: 600;
+  user-select: none;
+}
+
+.paper-abstract summary:hover {
+  text-decoration: underline;
+}
+
+.paper-abstract p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #444;
+  margin: 0.5rem 0 0;
+  padding-left: 0.5rem;
+  border-left: 3px solid #e5e5e5;
+}
+
+/* ===== AWARDS TABLE ===== */
+.awards-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.awards-table td {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 0.95rem;
+  vertical-align: top;
+}
+
+.awards-table .award-year {
+  text-align: right;
+  white-space: nowrap;
+  color: #777;
+  padding-left: 2rem;
+}
+
+/* ===== RESOURCES ===== */
+.section-container ul {
+  padding-left: 1.2em;
+}
+
+.section-container ul li {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+}
+
+/* ===== FOOTER ===== */
+.academic-footer {
+  text-align: center;
+  padding: 2rem;
+  color: #999;
+  font-size: 0.85rem;
+  border-top: 1px solid #e5e5e5;
+}
+
+.academic-footer a {
+  color: #777;
+  text-decoration: none;
+}
+
+/* ===== LINKS GLOBAL ===== */
+.section-container a {
+  color: #0055a4;
+  text-decoration: none;
+}
+
+.section-container a:hover {
+  text-decoration: underline;
+}
+
+/* ===== PRESENTATIONS ===== */
+.section-container > p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 0.6rem;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .bio-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bio-photo {
+    width: 180px;
+    height: 230px;
+  }
+
+  .nav-container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .nav-links a {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    font-size: 0.85rem;
+  }
+
+  .section-container, .bio-container {
+    padding: 0 1.2rem;
+  }
+
+  .bio-text h1 {
+    font-size: 1.6rem;
+  }
+}
+
+/* ===== SMOOTH SCROLL ===== */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
